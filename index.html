@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="images/logo.png" />
+
+        <title>Portfolio d'Alexis Migniau</title>
+
+        <meta name="description" content="Je m'appelle Alexis Migniau et je suis un développeur web confirmé avec une passion pour les technologies et l'innovation. Fort de plusieurs années d'expérience dans le développement web, je me sens à l’aise en PHP, notamment avec le framework Symfony, ainsi qu'en JavaScript avec React mais je suis toujours ouvert à apprendre d’autres frameworks et languages." />
+        <meta name="keywords" content="Développeur, Web, fullstack, Php, Symfony, JavaScript, React">
+        <meta name="author" content="Alexis Migniau">
+
+        <!-- Open graph -->
+        <meta property="og:title" content="Portfolio d'Alexis Migniau" />
+        <meta property="og:description" content="Je m'appelle Alexis Migniau et je suis un développeur web confirmé avec une passion pour les technologies et l'innovation. Fort de plusieurs années d'expérience dans le développement web, je me sens à l’aise en PHP, notamment avec le framework Symfony, ainsi qu'en JavaScript avec React mais je suis toujours ouvert à apprendre d’autres frameworks et languages." />
+        <meta property="og:type" content="article" />
+        <meta property="og:locale" content="fr_FR" />
+
+        <link rel="stylesheet" href="styles/basic.css">
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script type="text/javascript" src="script/index.js"></script>
+        <script src="https://kit.fontawesome.com/a8045806cf.js" crossorigin="anonymous"></script>
+
+         <!-- Matomo -->
+        <script>
+            var _paq = window._paq = window._paq || [];
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+            var u="//matomo.xixidev.fr/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '2']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <!-- End Matomo Code -->
+    </head>
+    <body>
+        <header class="dark_blue_background">
+            <div id="logo-title">
+                <img src="images/logo.png" alt="" />
+                <h1>Alexis Migniau</h1>
+                <h2>Développeur fullstack</h2>
+            </div>
+            <div id="menu">
+                <a href="#a_propos">A propos</a>
+                <a href="#projets">Projets</a>
+                <a href="#experiences">Expériences</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </header>
+        <svg class="svg_blue_background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 270">
+            <path fill="#005C78" fill-opacity="1" d="M0,128L16,128C32,128,64,128,96,160C128,192,160,256,192,234.7C224,213,256,107,288,58.7C320,11,352,21,384,64C416,107,448,181,480,186.7C512,192,544,128,576,90.7C608,53,640,43,672,69.3C704,96,736,160,768,176C800,192,832,160,864,138.7C896,117,928,107,960,101.3C992,96,1024,96,1056,90.7C1088,85,1120,75,1152,96C1184,117,1216,171,1248,202.7C1280,235,1312,245,1344,229.3C1376,213,1408,171,1424,149.3L1440,128L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z"></path>
+        </svg>
+        <main id="a_propos" class="blue_background">
+            <h2>A propos</h2>
+            <p>Je m'appelle Alexis Migniau et je suis un développeur web confirmé avec une passion pour les technologies et l'innovation. Fort de plusieurs années d'expérience dans le développement web, je me sens à l’aise en PHP, notamment avec le framework Symfony, ainsi qu'en JavaScript avec React mais je suis toujours ouvert à apprendre d’autres frameworks et languages.</p>
+            <p>Ce qui me plaît le plus dans ce métier, c'est de créer une fonctionnalité de A à Z, ce qui explique ma préférence pour le développement fullstack. J'apprécie également de savoir que les outils que je développe simplifient le travail des utilisateurs et leur font gagner du temps.</p>
+        </main>
+        <section id="projets">
+            <h2 class="random_square">Projets</h2>
+            <p>Dans cette section, vous trouverez une sélection de projets personnels sur lesquels j'ai travaillé récemment. Bien qu'ils ne représentent pas tous mes projets, j'ai choisi ceux qui sont les plus aboutis et pour lesquels je peux partager à la fois le code source et une version de démonstration. </p>
+            <div id="waklab" class="orange_background">
+                <div>
+                    <h3>Waklab</h3>
+                    <p>L'objectif de ce projet était de remplacer l'encyclopédie officielle du jeu <a href="https://www.wakfu.com/fr/mmorpg" target="_blank">Wakfu</a>, jugée peu intuitive et dépassée par la communauté. Avec deux amis, <a href="https://bvcoca.github.io/portfolio/" target="_blank">Benjamin Vaique</a> et <a href="https://rcdsdw.github.io/Portfollio/card.html" target="_blank">Rafael Candido Da Silva</a>, actuellement en formation de développeurs web, nous avons entrepris ce défi. Benjamin et Rafael se sont concentrés sur le front-end en utilisant <a href="https://nextjs.org/" target="_blank">Next.js</a>, avec une attention particulière au référencement, qui était l'un de nos principaux objectifs.</p>
+                    <p>Pour ma part, j'ai développé un scraper pour récupérer les données de l'encyclopédie officielle, garantissant ainsi des informations toujours à jour malgré les modifications fréquentes du jeu. De plus, j'ai été responsable de la création d'une API en utilisant <a href="https://www.elastic.co/fr/elasticsearch" target="_blank">Elasticsearch</a> et <a href="https://api-platform.com/" target="_blank">API Platform</a>. Nous sommes fiers du résultat obtenu, ayant enregistré environ 20 000 visites au cours des trois premiers mois suivant la mise en ligne.</p>
+                    <div class="project_link">
+                        <a href="https://waklaboratory.fr/" target="_blank"><i class="fa-solid fa-link"></i> Lien vers le site</a>
+                        <a href="https://gitlab.com/migniau.alexis/fight-io" target="_blank"><i class="fa-solid fa-code"></i> Code source</a>
+                    </div>
+                </div>
+                <img src="images/waklab_preview.png" alt="Interface utilisateur de Waklab" />
+            </div>
+            <svg class="svg_blue_background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E88D67" fill-opacity="1" d="M0,160L34.3,165.3C68.6,171,137,181,206,165.3C274.3,149,343,107,411,96C480,85,549,107,617,122.7C685.7,139,754,149,823,165.3C891.4,181,960,203,1029,176C1097.1,149,1166,75,1234,37.3C1302.9,0,1371,0,1406,0L1440,0L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+            <div class="blue_background">
+                <div>
+                    <h3>Fight.io</h3>
+                    <p>Dans ce projet, j'ai voulu apprendre à utiliser les websockets, et plus particulièrement la bibliothèque <a href="https://socket.io/" target="_blank">Socket.io</a> en Node.js. Pour cela, j'ai choisi de développer un jeu vidéo multijoueur sur navigateur afin de mettre en pratique cette technologie. J'ai également pu utiliser de manière avancée le canvas pour créer des animations avec des sprites 2D. Travailler sur le développement de ce jeu vidéo a été très enrichissant, car j'ai pu appliquer des design patterns rarement utilisés en développement web classique.</p>
+                    <p>Cependant, ce projet n'est pas encore totalement abouti. Il n'est pas facile de trouver des sprites au bon format et avec la même direction artistique pour ce type de jeu. Bien que le moteur de jeu soit en place, il manque encore du contenu pour rendre le jeu vraiment intéressant.</p>
+                    <div class="project_link">
+                        <a href="https://fight.xixidev.fr/" target="_blank"><i class="fa-solid fa-link"></i> Lien vers le site</a>
+                        <a href="https://gitlab.com/migniau.alexis/fight-io" target="_blank"><i class="fa-solid fa-code"></i> Code source</a>
+                    </div>
+                </div>
+                <img src="images/fight_preview.png" alt="Gameplay du jeu" />
+            </div>
+            <svg class="svg_blue_background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 270"><path fill="#005C78" fill-opacity="1" d="M0,192L26.7,202.7C53.3,213,107,235,160,213.3C213.3,192,267,128,320,112C373.3,96,427,128,480,117.3C533.3,107,587,53,640,58.7C693.3,64,747,128,800,149.3C853.3,171,907,149,960,122.7C1013.3,96,1067,64,1120,58.7C1173.3,53,1227,75,1280,106.7C1333.3,139,1387,181,1413,202.7L1440,224L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+            <div class="dark_blue_background">
+                <div>
+                    <h3>Bluemine</h3>
+                    <p>Comme son nom l'indique, ce projet est lié à l'outil de ticketing <a href="https://www.redmine.org/" target="_blank">Redmine</a>. Initialement conçu comme un challenge sur <a href="https://www.frontendmentor.io/challenges/kanban-task-management-web-app-wgQLt-HlbB" target="_blank">Frontend Mentor</a> (d'où provient le design), ce projet a pour objectif de fournir une vue Kanban personnalisable des tickets Redmine. Le front-end a été développé avec React, et les données sont récupérées directement via l'API de Redmine.</p>
+                    <div class="project_link">
+                        <a href="https://bluemine.xixidev.fr/" target="_blank"><i class="fa-solid fa-link"></i> Lien vers le site</a>
+                        <a href="https://github.com/alexisMigniau/bluemine" target="_blank"><i class="fa-solid fa-code"></i> Code source</a>
+                    </div>
+                </div>
+                <img src="images/bluemine_preview.PNG" alt="Vue kanban via Bluemine" />
+            </div>
+        </section>
+        <section id="experiences">
+            <h2 class="random_square">Expériences</h2>
+            <div class="orange_background">
+                <div>
+                    <img src="images/ed_logo.png" alt=""/>
+                    <div>
+                        <h3>Empreinte Digitale - Angers</h3>
+                        <h4>Développeur web</h4>
+                    </div>
+                    <h5><i class="fa-regular fa-calendar"></i> Depuis septembre 2022</h5>
+                </div>
+                <p>Dans une équipe produit comprenant douze membres, dont la moitié sont des développeurs, je suis impliqué dans plusieurs aspects du développement. Cela comprend la conception de nouvelles fonctionnalités, la correction de bugs et la reprise de données. Notre produit est un progiciel de gestion d'archives qui couvre l'ensemble de la chaîne archivistique des documents. Nous utilisons principalement le framework Cake PHP, bien que certaines parties de l'application soient développées avec Symfony.</p>
+            </div>
+            <svg class="svg_blue_background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E88D67" fill-opacity="1" d="M0,256L17.1,234.7C34.3,213,69,171,103,160C137.1,149,171,171,206,192C240,213,274,235,309,256C342.9,277,377,299,411,256C445.7,213,480,107,514,101.3C548.6,96,583,192,617,202.7C651.4,213,686,139,720,133.3C754.3,128,789,192,823,192C857.1,192,891,128,926,96C960,64,994,64,1029,80C1062.9,96,1097,128,1131,149.3C1165.7,171,1200,181,1234,160C1268.6,139,1303,85,1337,69.3C1371.4,53,1406,75,1423,85.3L1440,96L1440,0L1422.9,0C1405.7,0,1371,0,1337,0C1302.9,0,1269,0,1234,0C1200,0,1166,0,1131,0C1097.1,0,1063,0,1029,0C994.3,0,960,0,926,0C891.4,0,857,0,823,0C788.6,0,754,0,720,0C685.7,0,651,0,617,0C582.9,0,549,0,514,0C480,0,446,0,411,0C377.1,0,343,0,309,0C274.3,0,240,0,206,0C171.4,0,137,0,103,0C68.6,0,34,0,17,0L0,0Z"></path></svg>
+            <div class="blue_background">
+                <div>
+                    <img src="images/wiker_logo.png" alt=""/>
+                    <div>
+                        <h3>Wiker - Saint-Nazaire</h3>
+                        <h4>Développeur fullstack</h4>
+                    </div>
+                    <h5><i class="fa-regular fa-calendar"></i> De septembre 2020 à août 2022</h5>
+                </div>
+                <p>Dans le cadre de mon alternance d’un master en développement informatique, j'ai participé à la conception de nouvelles fonctionnalités telles qu'un système de publication automatique sur Facebook, un système de facturation, ainsi qu'à la correction de bugs. Mon intervention s'est étendue à l'API utilisant le framework PHP YII, au site web développé avec React et à l'application mobile développée sur React Native.</p>
+            </div>
+            <svg class="svg_blue_background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#005C78" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,197.3C384,203,480,181,576,149.3C672,117,768,75,864,96C960,117,1056,203,1152,229.3C1248,256,1344,224,1392,208L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+            <div class="dark_blue_background">
+                <div>
+                    <img src="images/cd49_logo.png" alt=""/>
+                    <div>
+                        <h3>Conseil départemental du 49 - Angers</h3>
+                        <h4>Développeur web</h4>
+                    </div>
+                    <h5><i class="fa-regular fa-calendar"></i> De septembre 2019 à août 2020</h5>
+                </div>
+                <p>J'ai effectué cette année d'alternance dans le cadre d'une licence professionnelle, au sein d'une équipe de quatre développeurs. J'ai travaillé sur un projet existant destiné à gérer les arrêtés et à payer les redevances pour les installations situées sur les bords de rivières. Ce projet utilise le framework Symfony. Parmi les fonctionnalités que j'ai pu ajouter, on compte un système de personnalisation pour la création des arrêtés au format PDF et un système de création de factures.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="random_square">Contact</h2>
+            <div class="blue_background">
+                <div class="links">
+                    <a href="mailto:migniau.alexis@gmail.com" title="Mail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h6>migniau.alexis@gmail.com</h6>
+                    </a>
+                    <a href="https://www.linkedin.com/in/alexis-migniau/" title="Linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <h6>/alexis-migniau</h6>
+                    </a>
+                    <a href="https://gitlab.com/migniau.alexis" title="Gitlab">
+                        <i class="fa-brands fa-gitlab"></i>
+                        <h6>/migniau.alexis</h6>
+                    </a>
+                    <a href="https://github.com/alexisMigniau" title="Github">
+                        <i class="fa-brands fa-github"></i>
+                        <h6>/alexisMigniau</h6>
+                    </a>
+                </div>
+                <form
+                    method="POST"
+                    id="contact-form"
+                > 
+                    <div class="row_form">
+                        <input id="nom" name="nom" type="text" title="Nom" placeholder="Nom *" required />
+                        <input id="mail" name="mail" type="email" title="Mail" placeholder="Mail *" required />
+                    </div>
+                    <textarea id="message" name="message" type="textarea" required rows="8" placeholder="Message *"></textarea>
+                    <button id="submit" type="submit">Envoyer <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
